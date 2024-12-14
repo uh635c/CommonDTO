@@ -18,7 +18,7 @@ public class IndividualResponseDTO {
     private String id;
     private String firstName;
     private String lastName;
-//    private String secretKey;
+    private String secretKey;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
     private LocalDateTime verifiedAt;

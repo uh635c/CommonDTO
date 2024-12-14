@@ -13,7 +13,7 @@ import lombok.Data;
 public class IndividualRequestDTO {
 
     //user props
-//    private UUID id;
+    private String id;
     private String firstName;
     private String lastName;
     private String secretKey;
