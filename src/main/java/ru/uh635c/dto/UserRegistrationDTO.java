@@ -14,13 +14,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
-public class IndividualRequestDTO {
-
+public class UserRegistrationDTO {
     //user props
-    private String id;
     private String firstName;
     private String lastName;
-    private String secretKey;
+    private String password;
+    private String confirmedPassword;
 
     //address props
     private String address;

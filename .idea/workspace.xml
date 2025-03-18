@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331e5530-88c8-41da-b34d-6ea028510c8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/uh635c/dto/ErrorDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/uh635c/dto/UserRegistrationDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/uh635c/dto/IndividualRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/uh635c/dto/IndividualRequestDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/uh635c/dto/IndividualResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/uh635c/dto/IndividualResponseDTO.java" afterDir="false" />
     </list>
@@ -204,6 +205,13 @@
       <workItem from="1732431463085" duration="3685000" />
       <workItem from="1732645386246" duration="664000" />
       <workItem from="1733077991048" duration="666000" />
+      <workItem from="1734171239758" duration="744000" />
+      <workItem from="1734362450392" duration="635000" />
+      <workItem from="1734515723341" duration="5690000" />
+      <workItem from="1734605020576" duration="602000" />
+      <workItem from="1741203112627" duration="624000" />
+      <workItem from="1742104125887" duration="651000" />
+      <workItem from="1742239673644" duration="2129000" />
     </task>
     <servers />
   </component>

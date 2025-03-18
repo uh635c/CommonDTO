@@ -3,14 +3,18 @@ package ru.uh635c.dto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import ru.uh635c.entity.Status;
 
 import java.time.LocalDateTime;
 
 @Data
 @Builder(toBuilder = true)
+@NoArgsConstructor
+@AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public class IndividualResponseDTO {
@@ -23,8 +27,6 @@ public class IndividualResponseDTO {
     private LocalDateTime updatedAt;
     private LocalDateTime verifiedAt;
     private LocalDateTime archivedAt;
-    private boolean filled;
-    private Status status;
 
     //address props
     private String address;
